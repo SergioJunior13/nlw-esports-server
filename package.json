@@ -7,7 +7,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "tsnd src/index.ts",
+    "start": "tsc src/index.ts",
     "dev": "tsnd src/index.ts"
   },
   "keywords": [],
