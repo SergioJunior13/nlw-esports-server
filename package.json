@@ -7,8 +7,9 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "tsc src/index.ts",
-    "dev": "tsnd src/index.ts"
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "tsnd --exit-child src/index.ts"
   },
   "keywords": [],
   "author": "",
